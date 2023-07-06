@@ -21,3 +21,20 @@ def inference(doc: Document):
     return {
         'response': ingredientes
     }
+
+
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    import uvicorn
+
+    # Configuración del puerto y el host
+    host = "127.0.0.1"
+    port = 9050
+
+    uvicorn.run(app, host="127.0.0.1", port=port)

@@ -1,0 +1,12 @@
+### GET request with a header
+GET http://127.0.0.1:9050
+Accept: application/json
+
+
+### Send POST request with json body
+POST http://127.0.0.1:9050/inference
+Accept: application/json
+Content-Type: application/json
+{
+   "item": "Salmon"
+}
